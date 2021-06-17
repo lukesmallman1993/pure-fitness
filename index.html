@@ -5,19 +5,197 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
     <title>Pure-Fitness</title>
 </head>
 <body>
-    <header>
+    <div class="container-fluid-nav">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">
+                <img class="Pure-fitness-logo" src="/assets/images/PURE FITNESS (1).png" alt="pure-fitness-logo">
+            </a>
 
-    </header>
-    <section>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
 
-    </section>
-    <footer>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Log In / Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <a href="/login" class="btn btn--cta btn--red">Log In / Sign Up</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid-nav background-container">
+        <div class="row">
+            <div class="col-12">
+                <section class="montage-container">
+                    <video autoplay loop muted>
+                        <source class="montage-video" src="/assets/videos/yt1s.com - JAY SAAB GYM MOTIVATION  Cinematic Gym Edit  DMT Cinema.mp4" type="video/mp4" alt="gym-montage"
+                    </video>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid-nav callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">WELCOME</h1>
+                    <hr class="block-divider block-divider--orange">
+                    <p class="lead">Sign up today to start your journey.
+                        <strong><mark>First one free!</mark></strong></p>
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="container-wrapper">
+        <div class="container about-container content-container">
+            <section class="about">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Meet The Team</h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2 profile-image">
+                                <div class="instructor-img">
+                                    <img src="/assets/images/mueen-agherdien-Osw4Ny30LHc-unsplash.jpg">
+                                </div>
+                            </div>
+                            <div class="col-10 text-container-image">
+                                <h4 class="three-reasons-heading uppercase">Altonio</h4>
+                                <p>
+                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2 profile-image ">
+                                <div class="instructor-img">
+                                    <img src="/assets/images/madison-lavern-4gcqRf3-f2I-unsplash.jpg">
+                                </div>
+                            </div>
+                            <div class="col-10 text-container-image">
+                                <h4 class="three-reasons-heading uppercase">Madison</h4>
+                                <p>
+                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
         
-    </footer>
+        </div>
+    </div>
+    <div class="container-wrapper container-wrapper--blue">
+        <div class="container features-container content-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Classes</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-swimming-pool"></i></i> Swimming</h3>
+                            <h5>Monday to Friday</h5>
+                            <p>9 am - 6pm</p>
+                            <p><a class="btn btn-sm btn-light" href="">Book Now</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-bicycle"></i> Cycle</h3>
+                            <h5>Tuesday/Thursday</h5>
+                            <p>5PM</p>
+                            <p><a class="btn btn-sm btn-light" href="">Book Now</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-dumbbell"></i> Gym</h3>
+                            <h5>Monday to Friday</h5>
+                            <p>9 am - 6pm</p>
+                            <p><a class="btn btn-sm btn-light" href="">Book Now</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="container-wrapper container-review">
+        <div class="container features-container content-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">What people are saying</h2>
+                        <p class="review-message">Your Opinion Matters!</p>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3>Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3>Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3>Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <section id="map-wrapper">
+        <iframe id="map" src="https://bit.ly/2QVfkiy" width="100%" height="300"></iframe>
+      </section>
+
+
+    <footer class="text-uppercase">
+
+		<span>Find us on:</span>
+
+		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
+		<a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
+
+
+	
+	</footer>
+
     
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
