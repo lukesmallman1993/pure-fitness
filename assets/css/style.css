@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Oswald', sans-serif;
+    overflow-x: hidden
 }
 
 /* ---------------------------------------------------------containers */
@@ -209,10 +210,6 @@ display: inline-block;
     width: 100%;
 }
 
-.col-2 {
-  
-}
-
 .profile-image {
     padding-left: 30%;
     
@@ -288,8 +285,8 @@ footer {
 
 #gallery {
     line-height:0;
-    -webkit-column-count:5; /* split it into 5 columns */
-    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -webkit-column-count:5; 
+    -webkit-column-gap:5px; 
     -moz-column-count:5;
     -moz-column-gap:5px;
     column-count:5;
@@ -299,7 +296,13 @@ footer {
  #gallery img {
     width: 100% !important;
     height: auto !important;
-    margin-bottom:5px; /* to match column gap */
+    margin-bottom:5px;
+    filter: grayscale(100%);
+    transition: filter 1s;
+ }
+
+ #gallery img:hover {
+    filter:none;
  }
 
 
