@@ -2,7 +2,7 @@
 
 [View live project here](lukesmallman.github.io/pure-fitness/)
 
-![mockup](docs/images/website.mov)
+<h2 align="center"><img src="docs/images/website.mov">
 
 This is a website for the pure fitness gym website, a fictional fitness centre offering gym memberships and a variaty of classes to choose from. It is designed to be responsive on different devices, making it easy to navigate for existing members and also people who are looking to sign up for the first time..
 
@@ -159,11 +159,59 @@ The W3C Markup Validator and W3C CSS validator Services were used to validate ev
 
 - W3C Markup Validator 
 1. Sign Up - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flukesmallman.github.io%2Fpure-fitness%2Fsign-up.html)
-2. Gallery [Results] 
+2. Index [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flukesmallman.github.io%2Fpure-fitness%2Findex.html)
+3. Gallery [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flukesmallman.github.io%2Fpure-fitness%2Fgallery.html)
+
+- W3C CSS Validator 
+1. Css - [Results](https://jigsaw.w3.org/css-validator/validator)
 
 ## 4.2 Testing User Stories from User Experience (UX) Section
 
+### First Time Visitor Goals
+
+1. As a first time visitor, I want to easily navigate through the page and understand what the page is about.
+
+- Upon entering the website, The user is greetes with a welcome sign and a easy to read navigation bar to go to a page they desire. underneath the navigation bar they a a video montage of someone working out.
+
+- The user can then scroll down the page to find all the infomation they need.
+
+2. As a First Time Visitor, I want to testimonials to understand what users think of them and see if they are trusted. I also want to locate their social media links to see thier followers to see how known they are.
+
+- Once the new vistor and scrolled throught the site, They will come across a "Meet the team" section.
+
+- When they get to the bottom of the site there will be social media links in the footer.
+
+3. As a new vistor, I would like a gallery page so that I can see what equipment they use there and to see if other members having a good time.
+
+- When you have finshed scrolling down the page, You can then go to the navigation bar and choose the gallery tab and this will take you to all the images.
+
+### Returning Visitor Goals
+
+1. As a returning visitor, I would like to find out what classes there are and the time.
+
+- Half way through the home page, You will come across a classes section which will change on a daily basses.
+
+- These will also have the time and date underneath and you can also book these classes with a click of a button underneath the text.
+
+2. As a returning visitor, I would like to find the social media groups so that I can join others in the community.
+
+- The social media pages can all be found in the footer of the website and will open in a new tab for the user.
+
+### Frequent User Goals 
+
+1. As a Frequent user, I want to be notified when new classes appear.
+
+- The user can got to the sign up page which when they fill out the boxes, They will get emails sent to them whenever a new classes is added.
+
 ## 4.3. Further Testing
+
+- The website was tested on Google Chrome and Internet Explorer.
+
+- The website was viewed on a variety of devices such as a Desktop , Tablet and Mobile.
+
+- A large ammount of testing was done to make sure all the links worked.
+
+- Friends and family where asked to review the website and give feedback on any changes I could make.
 
 ## 4.4 Testing Bugs - Resolved
 
