@@ -2,7 +2,7 @@
 
 [View live project here](lukesmallman.github.io/pure-fitness/)
 
-![mockup](docs/website.mov)
+![mockup](docs/images/website.mov)
 
 This is a website for the pure fitness gym website, a fictional fitness centre offering gym memberships and a variaty of classes to choose from. It is designed to be responsive on different devices, making it easy to navigate for existing members and also people who are looking to sign up for the first time..
 
@@ -163,9 +163,11 @@ The website provides users with information about the process for joining classe
 
 | Bug Found | Solution |
 | --- | ---- |
-| On the right side of my website I had a white line going all the way down my website. | After reading various blogs and a phone call with my tutor we added a (overflow-x: hidden) and this erased the line. |
+| On the right side of my website I had a white line going all the way down my website. | After reading various blogs and a phone call with my mentor we added a (overflow-x: hidden) and this erased the line. |
 
 ## 4.5 Known Bugs
+
+- Whilst creating my website I dident really come across any bugs but there was a few time where i was a bit confused as to why thing where happening in my website but after a little research they problem was simple and was just missing a a closing tag or added an extra letter in the class tag.
 
 # 5. Deployment
 
@@ -207,7 +209,35 @@ A fork is a copy of the original repository on put account so that you can make 
 
 ## 6.2. Content
 
+- https://saultfitness.com/ for review infomation on my "what people are saying" section.
+- https://windycitysc.com/
+- https://fitnessfactorymaine.com/
+- https://www.9round.com/#
+- https://www.lifespringfitness.net/
+- https://www.paddleupright.com/
+- https://www.mirror.co/ 
+
+All these links where used to gether inspuration from the design layouts and the features used in their websites.
+
 ## 6.3. Media
+
+- https://unsplash.com/s/photos/fitness
+- https://unsplash.com/photos/XE1U9LzKSjg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/XqxnqyqDU0k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/VJ2s0c20qCo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/dDp-6pXrYik?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/2mz9IKab7DE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/JA2S6sJWleg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/Z4Q9KHw9ofE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/buWcS7G1_28?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/PcBbrjiShAk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://www.canva.com/
+- https://www.youtube.com/watch?v=lDECBe_lphU
+- https://unsplash.com/photos/4gcqRf3-f2I?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/Osw4Ny30LHc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/C3Qs4MbxeKY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+All these links where used for the images that are currently on my website. I was going to use my own images for the website but due to circumstances I had to use images form websits. 
 
 ## 6.4. Acknowledgements
 

@@ -12,23 +12,25 @@
 <body>
     <div class="container-fluid-nav">
         <nav class="navbar navbar-dark navbar-expand-sm">
-            <a href="/" class="navbar-brand">
-                <img class="Pure-fitness-logo" src="assets/images/PURE FITNESS (1).png" alt="pure-fitness-logo">
-            </a>
-
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="company-name">
+                    <h4>Pure Fitness</h4>
+                </div>
                 <ul class="navbar-nav mr-auto">
                     <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Log In / Sign Up</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="sign-up.html">Sign Up</a></li>
                 </ul>
             </div>
+            <a href="sign-up.html">
             <div class="d-none d-md-block">
-                <a href="#" class="btn btn--cta btn--red">Log In / Sign Up</a>
+                <button type="button" class="btn btn-primary btn--blue" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" >Sign up</button>
+                
             </div>
+            </a>
         </nav>
     </div>
     <div class="container-fluid-nav background-container">
@@ -48,11 +50,14 @@
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
+                    <a href="/" class="navbar-brand">
+                        <img class="Pure-fitness-logo" src="assets/images/PURE FITNESS (1).png" alt="pure-fitness-logo">
+                    </a>
                     <h1 class="jumbotron-header">WELCOME</h1>
                     <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start your journey.
                         <strong><mark>First session free!</mark></strong></p>
-                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    <button class="btn btn-lg btn--cta btn--blue" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                 </section>
             </div>
         </div>
@@ -66,40 +71,29 @@
                         <hr class="block-divider block-divider--short">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2 profile-image">
-                                <div class="instructor-img">
-                                    <img src="assets/images/mueen-agherdien-Osw4Ny30LHc-unsplash.jpg">
-                                </div>
+                    <div class="row container-instructor">
+                        <div class="col-12 ">
+                            <div class="hvrbox">
+	                            <img src="assets/images/mueen-agherdien-Osw4Ny30LHc-unsplash.jpg" alt="Mountains" class="hvrbox-layer_bottom">
+	                                <div class="hvrbox-layer_top">
+		                                <div class="hvrbox-text">
+                                            <h4>James</h4>
+                                            <h7>age:35</h7>
+                                            <p>Having played semi professional football since the age of 18: Mason is no stranger to the strains and pressures of an exercise and nutrition program. Anyone lucky enough to train with Mason will be coached by a man who eats sleeps and breaths his passion, and someone eager and excited to introduce them to the levels of health and fitness that he loves so much himself.</p>
+                                        </div>
+	                                </div>
                             </div>
-                            <div class="col-10 text-container-image">
-                                <h4 class="three-reasons-heading uppercase">Altonio</h4>
-                                <p>
-                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
-                                </p>
+                            <div class="hvrbox">
+	                            <img src="assets/images/filip-mroz-C3Qs4MbxeKY-unsplash.jpg" alt="Mountains" class="hvrbox-layer_bottom">
+	                                <div class="hvrbox-layer_top">
+		                                <div class="hvrbox-text">
+                                            <h4>Peter</h4>
+                                            <h7>age:39</h7>
+                                            <p>Our gym manager is a fantastic member of the team and has a strong, friendly relationship with his clients and everyone here at BWPT. He delivers fun but tough tailor made sessions to each individual clients goals – he follows our plans and principals perfectly, to deliver entertaining but challenging workouts – again and again. He is calm, likeable and leads by example</p>
+                                        </div>
+	                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2 profile-image ">
-                                <div class="instructor-img">
-                                    <img src="assets/images/madison-lavern-4gcqRf3-f2I-unsplash.jpg">
-                                </div>
-                            </div>
-                            <div class="col-10 text-container-image">
-                                <h4 class="three-reasons-heading uppercase">Madison</h4>
-                                <p>
-                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
+            </section>
         
         </div>
     </div>
@@ -115,7 +109,8 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
-                            <h3><i class="fas fa-swimming-pool"></i></i> Swimming</h3>
+                            <i class="fas fa-swimming-pool"></i>
+                            <h3>Swimming</h3>
                             <h5>Monday to Friday</h5>
                             <p>9 am - 6pm</p>
                             <p><a class="btn btn-sm btn-light" href="">Book Now</a></p>
@@ -123,7 +118,8 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
-                            <h3><i class="fas fa-bicycle"></i> Cycle</h3>
+                            <i class="fas fa-bicycle"></i>
+                            <h3>Cycle</h3>
                             <h5>Tuesday/Thursday</h5>
                             <p>5PM</p>
                             <p><a class="btn btn-sm btn-light" href="">Book Now</a></p>
@@ -131,7 +127,8 @@
                     </div>
                     <div class="col-12 d-md-none d-lg-block col-lg-4">
                         <div class="feature">
-                            <h3><i class="fas fa-dumbbell"></i> Gym</h3>
+                            <i class="fas fa-dumbbell"></i>
+                            <h3>Gym</h3>
                             <h5>Monday to Friday</h5>
                             <p>9 am - 6pm</p>
                             <p><a class="btn btn-sm btn-light" href="">Book Now</a></p>
@@ -147,6 +144,7 @@
                 <div class="row">
                     <div class="col-12 page-header">
                         <h2 class="text-uppercase">What people are saying</h2>
+                        <hr class="block-divider block-divider--short">
                         <p class="review-message">Your Opinion Matters!</p>
                         <hr class="block-divider block-divider--short block-divider--white">
                     </div>
@@ -154,20 +152,17 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
-                            <h3>Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>"I began training at Sault Fitness in September 2016, knowing that I needed to make some lifestyle changes. At age 72, I am amazed at how well I am feeling today…."</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
-                            <h3>Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>"Since joining Sault Fitness in August 2016 and working with Mike, I have finally achieved long term success. I have lost 33 pounds and 5 inches off of my waist and, as a result, I am no longer taking blood pressure and cholesterol medicine."</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
-                            <h3>Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>"If you have the opportunity to train with Jared, you will see results that you didn't think were possible. Training with Jared is an amazing experience."</p>
                         </div>
                     </div>
                 </div>
@@ -177,15 +172,24 @@
     <section id="map-wrapper">
         <iframe id="map" src="https://bit.ly/2QVfkiy" width="100%" height="300"></iframe>
     </section>
-    <footer class="text-uppercase">
 
-		<span>Find us on:</span>
+    <footer class="container-footer">
+        <div class="row footer-icons">
+            <div class="col-12">
+                <ul class="social-networks">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <p class="">Copyright © Pure Fitness</p>
 
-		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
-		<a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
+            </div>
+        </div>
 
+		
 
+        
 	
 	</footer>
 
