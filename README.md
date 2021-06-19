@@ -155,6 +155,10 @@ The website provides users with information about the process for joining classe
 
 ## 4.1 Validator tools
 
+The W3C Markup Validator and W3C CSS validator Services were used to validate every page of the project to ensure there where no syntax errors in mywebsite code.
+
+- W3C Markup Validator
+
 ## 4.2 Testing User Stories from User Experience (UX) Section
 
 ## 4.3. Further Testing
