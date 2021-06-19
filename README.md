@@ -260,6 +260,7 @@ A fork is a copy of the original repository on put account so that you can make 
 - Bootstrap 5: Bootstrap Library used to make the site responsive using the Bootstrap Grid System
 - W3schools.com used for making changes to formatting and customising Bootstrap content used.
 - timnwells.medium.com for responsive gallery and features for images [here](https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea)
+- http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/ used for makeing a hover over image
 
 ## 6.2. Content
 
