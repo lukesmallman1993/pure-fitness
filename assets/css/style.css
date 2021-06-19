@@ -258,7 +258,7 @@ mark {
 
 .hvrbox .hvrbox-text {
 	text-align: center;
-	font-size: 18px;
+	font-size: 10px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -328,7 +328,7 @@ mark {
 
 .hvrbox .hvrbox-text {
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 1.3vw;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
