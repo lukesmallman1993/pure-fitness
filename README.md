@@ -2,7 +2,7 @@
 
 [View live project here](lukesmallman.github.io/pure-fitness/)
 
-<h2 align="center"><img src="docs/images/website.mov">
+<h2 align="center"><img src="docs/images/validator.png">
 
 This is a website for the pure fitness gym website, a fictional fitness centre offering gym memberships and a variaty of classes to choose from. It is designed to be responsive on different devices, making it easy to navigate for existing members and also people who are looking to sign up for the first time..
 
