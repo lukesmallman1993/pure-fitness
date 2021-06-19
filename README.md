@@ -157,7 +157,9 @@ The website provides users with information about the process for joining classe
 
 The W3C Markup Validator and W3C CSS validator Services were used to validate every page of the project to ensure there where no syntax errors in mywebsite code.
 
-- W3C Markup Validator
+- W3C Markup Validator 
+1. Sign Up - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flukesmallman.github.io%2Fpure-fitness%2Fsign-up.html)
+2. Gallery [Results] 
 
 ## 4.2 Testing User Stories from User Experience (UX) Section
 
