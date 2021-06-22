@@ -87,10 +87,10 @@ The website provides users with information about the process for joining classe
 
 ## 1.5 Wireframes
 
-- Home page  - [view](docs/readme-images/home-page)
-- Gallery page - [view](docs/readme-images/gallery-page)
-- Phone - [view](docs/readme-images/phone-res)
-- Sign up - [view](docs/readme-images/signup-page)
+- Home page  - [view](docs/images/home-page.png)
+- Gallery page - [view](docs/images/gallery-page.png)
+- Phone - [view](docs/images/phone-res.png)
+- Sign up - [view](docs/images/signup-page.png)
 
 # 2. Features
 
