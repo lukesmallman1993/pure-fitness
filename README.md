@@ -1,6 +1,6 @@
 # Pure Fitness Gym Website
 
-[View live project here](lukesmallman.github.io/pure-fitness/)
+[View live project here]([lukesmallman.github.io/pure-fitness/](https://lukesmallman1993.github.io/pure-fitness/index.html))
 
 <h2 align="center"><img src="docs/images/validator.png">
 
