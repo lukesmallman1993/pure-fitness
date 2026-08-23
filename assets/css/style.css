@@ -27,18 +27,34 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
 }
 
-.opaque-overlay {
+.opaque-overlay,
+.montage-container {
   position: absolute;
   top: -60px;
+  width: 100%;
+  z-index: -1;
+}
+
+.opaque-overlay {
   left: 0;
   height: 100%;
   background-color: var(--color-overlay);
+}
+
+.montage-container {
+  right: 15px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.callout-container,
+.montage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content-container {
@@ -59,8 +75,12 @@ body {
 }
 
 .container-wrapper--blue {
-  background-image: linear-gradient(to bottom right, var(--color-brand), var(--color-brand-light));
-  color: white;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-brand),
+    var(--color-brand-light)
+  );
+  color: var(--color-white);
 }
 
 /* --- Nav Bar --- */
@@ -106,10 +126,9 @@ body {
 }
 
 .jumbotron h1 {
-  color: white;
+  color: var(--color-white);
   font-weight: bold;
   margin-bottom: 30px;
-  color: white;
 }
 
 .jumbotron .lead {
@@ -125,7 +144,7 @@ body {
 
 .mark,
 mark {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-white);
   border-radius: 70px;
   font-size: 15px;
 }
@@ -134,27 +153,6 @@ mark {
   color: var(--color-brand);
   text-align: center;
   padding-top: 1px;
-}
-
-.opaque-overlay,
-.montage-container {
-  position: absolute;
-  top: -60px;
-  width: 100%;
-  z-index: -1;
-}
-
-.montage-container {
-  right: 15px;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.callout-container,
-.montage-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* --- Dividers --- */
@@ -166,10 +164,8 @@ mark {
   background-color: var(--color-brand);
 }
 
-.block-divider--orange {}
-
 .block-divider--white {
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 .block-divider--short {
@@ -185,7 +181,7 @@ mark {
 }
 
 .btn--blue {
-  color: white;
+  color: var(--color-white);
   background-color: var(--color-brand);
   border-color: var(--color-brand);
 }
@@ -196,7 +192,7 @@ mark {
 .btn--blue:active:focus {
   background-color: var(--color-brand-light);
   border-color: var(--color-brand-light);
-  color: white;
+  color: var(--color-white);
 }
 
 /* --- Page Headers --- */
@@ -302,8 +298,8 @@ mark {
 }
 
 .feature .btn {
-  background-color: white;
-  border-color: white;
+  background-color: var(--color-white);
+  border-color: var(--color-white);
   border-radius: 15px;
   min-width: 100px;
   font-weight: bold;
