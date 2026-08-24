@@ -1,0 +1,17 @@
+/*
+Theme Name: Pure Fitness Store
+Theme URI: https://github.com/lukesmallman1993/pure-fitness
+Author: Luke Smallman
+Author URI: https://github.com/lukesmallman1993
+Description: A modern, fully featured WooCommerce theme for Pure Fitness. Includes a bold hero front page, featured product sections, AJAX cart, off-canvas mobile navigation, product quick-view styling, customizer options, and full WooCommerce support (product gallery zoom, lightbox and slider).
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pure-fitness-store
+Tags: e-commerce, woocommerce, one-column, custom-colors, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/* Styles are enqueued from assets/css/ - see functions.php */
