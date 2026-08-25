@@ -61,6 +61,32 @@
 	color: var(--pfs-muted);
 }
 
+/* Neutralise WooCommerce core float-based layout (woocommerce-layout.css)
+   so the theme's CSS grid layouts apply to product grids and checkout columns. */
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+	width: auto !important;
+	float: none !important;
+	margin: 0 !important;
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-1,
+.woocommerce-page .col2-set .col-2 {
+	width: auto !important;
+	float: none !important;
+}
+
+ul.products::before,
+ul.products::after,
+.woocommerce .col2-set::before,
+.woocommerce .col2-set::after,
+.woocommerce-page .col2-set::before,
+.woocommerce-page .col2-set::after {
+	display: none !important;
+}
+
 /* Product grid */
 ul.products {
 	display: grid;
